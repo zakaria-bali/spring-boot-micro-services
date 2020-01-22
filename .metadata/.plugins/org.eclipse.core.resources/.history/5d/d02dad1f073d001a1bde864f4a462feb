@@ -1,0 +1,15 @@
+package com.bali.restController;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConfigRestController {
+	
+	@Value("${xParam}")
+	private int xParam;
+	@Value("${yParam}")
+	private int yParam;
+	private String me;
+
+}

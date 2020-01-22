@@ -1,0 +1,23 @@
+package com.bali.restController;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConfigRestController {
+	
+	@Value("${xParam}")
+	private int xParam;
+	@Value("${yParam}")
+	private int yParam;
+	@Value("${me}")
+	private String me;
+	
+	
+	public Map<String, Object> myConfig(){
+		
+	}
+
+}

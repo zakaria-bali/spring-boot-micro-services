@@ -1,0 +1,12 @@
+package com.bali.restController;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConfigRestController {
+	
+	private int xParam;
+	private int yParam;
+	
+
+}

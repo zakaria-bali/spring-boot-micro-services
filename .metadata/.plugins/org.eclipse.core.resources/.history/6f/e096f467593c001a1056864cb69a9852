@@ -1,0 +1,6 @@
+package com.bali.dao;
+
+
+public interface CompanyRepository {
+
+}

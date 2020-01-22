@@ -1,0 +1,9 @@
+package com.bali.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.bali.entities.Company;
+
+public interface CompanyRepository extends JpaRepository<Company, id> {
+
+}

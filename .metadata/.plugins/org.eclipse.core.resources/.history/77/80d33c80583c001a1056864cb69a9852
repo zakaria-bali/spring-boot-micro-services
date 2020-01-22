@@ -1,0 +1,5 @@
+package com.bali.entities;
+
+public class Company {
+
+}
